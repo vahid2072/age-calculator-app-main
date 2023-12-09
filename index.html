@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <form action="#" class="form-flex">
+          <div class="date-container">
+            <label for="day" class="label-day">DAY</label>
+            <input type="text" id="day" placeholder="DD">
+            <small class="error-day"></small>
+          </div>
+          <div class="date-container">
+            <label for="month" class="label-month">MONTH</label>
+            <input type="text" id="month" placeholder="MM">
+            <small class="error-month"></small>
+          </div>
+          <div class="date-container">
+            <label for="year" class="label-year">YEAR</label>
+            <input type="text" id="year" placeholder="YYYY">
+            <small class="error-year"></small>
+          </div>
+      </form>
+      <button class="submit-button">
+        <img src="./assets/images/icon-arrow.svg" class="icon-arrow">
+      </button>
+        <div class="output">
+          <h1><span class="output-year">--</span>years</h1>
+          <h1><span class="output-month">--</span>months</h1>
+          <h1><span class="output-day">--</span>days</h1>
+        </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/vahid-khani-12937426a/" target="_blank">Vahid Khani</a>.
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
